@@ -1,7 +1,7 @@
 #!/bin/bash
 
-while true
+while :
 do
-  raspivid -t 0 -n -ih -pf baseline -w 640 -h 480 -fps 20 -l -o "tcp://$(hostname -I):1234"
+  raspivid -t 0 -n -ih -w 640 -h 480 -fps 20 -l -o "tcp://$(hostname -I):1234"
   sleep 1
 done
