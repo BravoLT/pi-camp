@@ -10,9 +10,7 @@ The contents of this repository have been extracted from an open-source Python c
 - Variables
 - If Statements
 - Loops
-- Dictionaries
 - Lists
-- Tuples
 
 ## Using Notebooks
 
