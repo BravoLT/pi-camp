@@ -22,7 +22,8 @@ var myVariable = 1;
 
 // number
 // any numeric value
-var myNumber = 20;
+var myWholeNumber = 20;
+var myDecimalNumber = 2.6
 
 // string
 // A set of characters between single or double quotes
