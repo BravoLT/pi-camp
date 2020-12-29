@@ -34,17 +34,14 @@ At the time of this writing, the best hosting solution for these lessons is on S
 
 ## Using StackBlitz to Teach
 1. Once your lessons are all saved, share the URL to your profile.  It will looks something like this: https://stackblitz.com/@GitHub_User_Name_Here.  Below, you can see how the lessons display in my profile...
-![Lesson List](./resources/listOfLessons.PNG)
-</br>
-
-You can also share the URL to each lesson
+![Lesson List](./resources/listOfLessons.PNG) You can also share the URL to each lesson
 ![Lesson URL](./resources/lessonUrl.PNG)
 
-2. Use of the console is required when teaching this course.  Instruct your students to click on the console bar in each lesson so that it is replaced with a console window.  Please note that this window's size is adjustable.
+</br>
 
+2. Use of the console is required when teaching this course.  Instruct your students to click on the console bar in each lesson so that it is replaced with a console window.  Please note that this window's size is adjustable.
 Console Bar
 ![Console Bar](./resources/consoleBar.PNG)
-
 Console Window
 ![Console Window](./resources/consoleWindow.PNG)
 
@@ -61,8 +58,6 @@ Console Window
 </br>
 
 5. Each lesson contains a challenge for the students to accomplish that will help this put what they learned to practice.
-
 ![challenge](./resources/challenge.PNG)
-
 It is expected that students will get stuck on these, especially if they are new to programming.  When this happens, have the student hit Ctrl + S to save their code.  StackBlitz will make a copy of the lesson with their changes and save that (the lessons tied to your profile will not be overwritten).  Once the copy is saved, have them share their lesson URL so that you can see their code and walk them through the problem.
 ![lessonCopy](./resources/lessonCopy.PNG)
