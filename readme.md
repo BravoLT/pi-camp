@@ -60,6 +60,7 @@ Console Window
 </br>
 
 5. Each lesson contains a challenge for the students to accomplish that will help this put what they learned to practice.
+
 ![challenge](challenge.PNG)
 
 It is expected that students will get stuck on these, especially if they are new to programming.  When this happens, have the student hit Ctrl + S to save their code.  StackBlitz will make a copy of the lesson with their changes and save that (the lessons tied to your profile will not be overwritten).  Once the copy is saved, have them share their lesson URL so that you can see their code and walk them through the problem.
