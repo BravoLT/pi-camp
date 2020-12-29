@@ -17,7 +17,8 @@ This is meant to be a crash course in JavaScript that can be taught in under 2 h
 At the time of this writing, the best hosting solution for these lessons is on StackBlitz.  To help simplify navigation, it was decided that each lesson be it's own project there.  To host a lesson on StackBlitz...
 1. Navigate to www.stackblitz.com.
 </br>
-1. Sign into StackBlitz using your Github profile.  This can be done by clicking the sign-in button in the upper right corner of the home page.  Being signed into StackBlitz allows you to create a profile with the service, which you can share with your students.
+
+2. Sign into StackBlitz using your Github profile.  This can be done by clicking the sign-in button in the upper right corner of the home page.  Being signed into StackBlitz allows you to create a profile with the service, which you can share with your students.
 ![Sign In](./resources/signIn.PNG)
 </br>
 
