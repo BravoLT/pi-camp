@@ -1,0 +1,2 @@
+#!/bin/bash
+mplayer -fps 30 -demuxer h264es ffmpeg://tcp://$1:1234
