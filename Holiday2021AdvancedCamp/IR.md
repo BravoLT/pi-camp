@@ -12,10 +12,13 @@ Point the remote at the light and try some of the buttons.  Look at the remote a
 
 ## Programming a 'learning' remote
 
+[comment]: <> (leanable should be learnable.  Also, did you mean Anderic?)
 All keys on the Andernic RRST01 are leanable
 
 This method does is how to program individual buttons.
 1. Press and hold the HULU & OK keys simultaneously for about 5 seconds; indicator light will illuminate brighter and remain bright. Release the keys.
+
+[comment]: <> (Another nomenclature thing that might be intiminating.  I feel it saying "point both remotes at each other" would make more sense to them.)
 2. Point the original remote control head-to-head with the RRST01.2, aligning top edges at about 1-2 inches apart (both remotes should be pointing at each other).
 3. On the RRST01.2, Press and release the first key to be learned, the indicator light will now flash slowly.
 4. On the original remote, press and hold the key that you want to learn to the corresponding key previously pressed on the RRST01.2. The indicator light will flash three times to confirm and then remain on, waiting for the next key to learn.

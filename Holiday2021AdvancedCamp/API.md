@@ -1,10 +1,12 @@
 # Making remote API calls
 
 What is an API call anyway?  API calls are used to perform an action on a remote host or service and, usually, check the result.  
+[comment]: <> (We could take this oppurtunity to do a ELI5 of what HTTP is.  Tech nomenclature can be scary sometimes.)
 This can be performed in multiple ways.  On common way through HTTP calls.  The most common way to make an HTTP call is through a web browser.  We will examine these calls in a web browser and expand the calls in a few ways. 
 
 ## Seeing an API call in action in the web browser
 ---
+[comment]: <> (I do not feel eveyone will understand what we mean by "hamburger".  Readmes allow for us to call call picures/gifs.  Perhaps we can include a pic of what the icon looks like, or have a gif showing them how to click the icon, go to "more tools", then "dev tools")
 Modern websites are made up of calls to static resources such as images and API calls to gather data.  This can be seen by using a brower's developer mode. Hamburger -> More Tools -> Developer Tools and click Fetch/XHR.  What is listed there are the API calls that pull in data from another source.
 
 ## Seeing an API call in action in the command line
@@ -44,7 +46,7 @@ We have a set of light bulbs running the tasmota open source firmware.  Try thes
 http://<ip>/cm?cmnd=Power%20On
 http://<ip>/cm?cmnd=Power%20off
 `
-
+[comment]: <> (excaped should be escaped.  we could also do another quick ELI5 on what we mean by escaping)
 What is going on here?  The API call uses request parameters that are excaped in a special way so that they can be sent.  There are multiple agreements going on here.  The commands have to be sent in an escaped format.  In this format,  %20 is a space.  The acutal command for line one is 'Power toggle'.  That is the command that will toggle power in the command line of tasmota.
 
 See if you can find the url to run this command:
