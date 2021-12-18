@@ -23,7 +23,9 @@ The photoresistor changes the resistance of the circuit with how much light is s
 ## Raspberry Pi Reading Analog
 A Raspberry Pi is a digital computer that only understands 1s and 0s, so how are we going to read an analog signal like we are going to get from the photoresistor? We are going to use a special microchip that will turn the analog signal into a digital one that the Raspberry Pi can read.  This is called an **A**nalog **D**igital **C**onverter (ADC). This microchip will look at the signal from the photoresistor and compare it to a base signal and assign it a number from 0 to 256 that the Raspberry Pi will read. 
 ## Experiment
-
+Build the circuit as pictured:
+![](pictures/photoresistor_fritzing.png)
+![](pictures/photoresistor_pic.jpg)
 Run the code `sudo photoresistor.py` and watch the number change as you move your hand over the photoresistor. 
 
-Maybe have them switch out the photoresistor for the thermalresitor? Need to think of something for them to "change" to see results and "experiment with"
+Experiment with things and try the thermistor or build your own.  If you need help don't be afraid to ask.

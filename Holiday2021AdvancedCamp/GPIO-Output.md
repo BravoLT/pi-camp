@@ -14,10 +14,13 @@ With an LED we can not control its brightness the same way we do an incandescent
 
 ## Let's get Started
 
-You should have a Raspberry Pi connected to what is called a breadboard with an RGB LED on it like the image below.
+Build the circuit as pictured below. Take note the longest pin on the LED connects to red wire in the diagram. Also, make sure there are resistors or the LED could burn up. If in doubt ask for help.
+
 ![PWM Example](pictures/rgbLed.jpg)
 ![PWM Example](pictures/rgbLed_fritzing.png)
 
 In the terminal run the following command `sudo rgbLed.py`
 
-You should see the LED start to change colors.  Now press Ctrl+C to end the program.  Try changing the list of numbers on lines 6-12 from any number 0-100 and run the program again to see the effect. If you want you can add more colors by adding `[0, 0, 0],` Where indicated.
+You should see the LED start to change colors.  Now press Ctrl+C to end the program.  Try changing the list of numbers on lines 6-12 from any number 0-100 and run the program again to see the effect. If you want you can add more colors by adding `[0, 0, 0],` where indicated.
+
+If you get done with that and have time try building your own circuit with something and have fun.
